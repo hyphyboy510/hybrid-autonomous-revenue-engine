@@ -1,2 +1,6 @@
-# hybrid-autonomous-revenue-engine
-Hybrid edge computing platform combining Automaton, money4band, and income-generator with AI-powered UI/UX generation and real-time monitoring dashboard
+DATABASE_URL=sqlite:///revenue_engine.db
+LOG_LEVEL=INFO
+AUTOMATON_ENABLED=true
+BANDWIDTH_ENABLED=true
+SETANDFORGET_ENABLED=true
+SYNC_INTERVAL_SECONDS=60

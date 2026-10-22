@@ -1,0 +1,27 @@
+# Hybrid Autonomous Revenue Engine
+
+A revenue automation project combining AI task execution, passive income, set-and-forget workflows, and CRM support.
+
+## Features
+- Automaton revenue pipeline
+- Bandwidth revenue pipeline
+- Set-and-forget workflow automation
+- CRM leads and sales pipeline summaries
+- Docker-ready Python deployment
+
+## Setup
+```bash
+pip install -r requirements.txt
+python baseline_sync.py
+```
+
+## CRM info
+```python
+from crm.sales_pipeline import pipeline_summary
+print(pipeline_summary())
+```
+
+## Deploy
+```bash
+docker build -t hybrid-revenue-engine .
+```
